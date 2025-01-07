@@ -1,0 +1,27 @@
+.contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.inputs:hover label{
+    top: -29px;
+    left: 0;
+    display: block;
+    color: #1ABC9C;
+}
+input{
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn,
+.btn:hover{
+    background-color: #1ABC9C;
+}
+

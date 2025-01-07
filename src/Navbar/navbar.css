@@ -1,0 +1,10 @@
+nav{
+    background-color: #2C3E50;
+}
+ul li a{
+    width: fit-content;
+}
+.nav-link.active{
+    background-color: #1ABC9C;
+    transition: .5s;
+}
