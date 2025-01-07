@@ -16,7 +16,7 @@ function App() {
          {path:'about',element:<About/>},
          {path:'protfolio',element:<Portfolio/>},
          {path:'contact',element:<Contact/>},
-         {path:'*',element:<Notfound/>}
+         {path:'*',element:<Notfound/>},
       ]
 
     }])

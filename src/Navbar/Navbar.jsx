@@ -14,9 +14,13 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
+                     
+                  {/* <li className="nav-item me-3">
+                       <NavLink className="nav-link rounded text-white text-uppercase fw-bold mt-3 mt-md-0 px-2"  to="">Home</NavLink> 
+                   </li> */}
 
                     <li className="nav-item me-3">
-                      <NavLink className="nav-link rounded  text-white text-uppercase fw-bold mt-3 mt-md-0 px-2" aria-current="page" to="/about">About</NavLink>
+                      <NavLink className="nav-link rounded  text-white text-uppercase fw-bold mt-3 mt-md-0 px-2" aria-current="page"  to="/about">About</NavLink>
                     </li>
                     <li className="nav-item me-3">
                       <NavLink className="nav-link rounded text-white text-uppercase fw-bold mt-3 mt-md-0 px-2" to="/Protfolio">Protfolio</NavLink>
@@ -24,6 +28,7 @@ export default function Navbar() {
                     <li className="nav-item me-3">
                       <NavLink className="nav-link rounded text-white text-uppercase fw-bold mt-3 mt-md-0 px-2" to="/contact">Contact</NavLink>
                     </li>
+                    
                     
                   </ul>
                 </div>
